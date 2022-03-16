@@ -1,0 +1,43 @@
+{
+  "name": "LemonBot",
+  "version": "2.1.0 beta",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy/deploy.js",
+    "clear": "node deploy/clear.js"
+  },
+  "keywords": [
+    "LemonBot",
+    "javascript",
+    "node",
+    "js",
+    "discord",
+    "music",
+    "bot",
+    "slash",
+    "context",
+    "menu",
+    "command",
+    "discord.js",
+    "autocomplete",
+    "interaction",
+    "sharding"
+  ],
+  "author": "WinsonOTP",
+  "description": "一個多元功能的機器人",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "@kyometori/djsmusic": "^0.8.2",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2",
+    "eslint": "^8.10.0",
+    "ffmpeg-static": "^4.4.1",
+    "mathjs": "^10.1.1",
+    "request": "^2.88.2",
+    "translate-google": "^1.5.0"
+  }
+}
